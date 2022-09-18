@@ -29,6 +29,7 @@ Description of the steps to unify all necessary IDE files into a single director
 	.android_machines
 	.gradle
 	projects
+	readme.en.md
 	readme.md
 	sdk
 	start-studio.bat
