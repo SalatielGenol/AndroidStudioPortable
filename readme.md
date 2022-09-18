@@ -40,4 +40,4 @@ Descripción de los pasos para unificar todos los archivos necesarios del IDE en 
 ##### Notas:
 
 - Hay 3 archivos que no he conseguido incluir en el directorio: adbkey, adbkey.pub, y analytics.settings, que se encuentran en la ruta: {HOMEPATH}/.android
-- Es posible que la primera vez que cargues un proyecto salga algun error de falta de librerías, es normal ya que en ese momento aun se están descargando algunos archivos necesarios.
+- Es posible que la primera vez que cargues un proyecto salga algún error de falta de librerías, es normal ya que en ese momento aun se están descargando algunos archivos necesarios.
