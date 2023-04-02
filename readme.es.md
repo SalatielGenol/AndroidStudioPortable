@@ -1,6 +1,6 @@
 ### Android Studio Portable
 
-Descripción de los pasos para unificar todos los archivos necesarios del IDE en un solo directorio.
+DescripciÃ³n de los pasos para unificar todos los archivos necesarios del IDE en un solo directorio.
 
 ##### Instrucciones:
 
@@ -14,15 +14,15 @@ Descripción de los pasos para unificar todos los archivos necesarios del IDE en 
 		...
 	```
 3. Ejecutar start-studio.bat
-4. Elegir no importar la configuración
-5. Avanzar hasta la pantalla de selección de tipo de configuración y elegir personalizada
-6. Comprobar que los siguientes directorios están correctos:
+4. Elegir no importar la configuraciÃ³n
+5. Avanzar hasta la pantalla de selecciÃ³n de tipo de configuraciÃ³n y elegir personalizada
+6. Comprobar que los siguientes directorios estÃ©n correctos:
 	- JDK
-	> {PortableAppPath}\sw_files\jre
+	> {PortableAppPath}\sw_files\jbr
 	- Android SDK
 	> {PortableAppPath}\sdk
 7. Se pueden guardar los proyectos donde se quiera, pero se recomienda usar la carpeta projects
-8. El directorio principal debería haber quedado así:
+8. El directorio principal deberÃ­a haber quedado asÃ­:
 	```
 	.android
 	.AndroidStudio
@@ -36,9 +36,9 @@ Descripción de los pasos para unificar todos los archivos necesarios del IDE en 
 	studio.properties
 	sw_files
 	```
-9. Listo! A partir de aquí ejecutar siempre el IDE con el script ***start-studio.bat***
+9. Listo! A partir de aquÃ­ ejecutar siempre el IDE con el script ***start-studio.bat (o start-studio.sh)***
 
 ##### Notas:
 
 - Hay 3 archivos que no he conseguido incluir en el directorio: adbkey, adbkey.pub, y analytics.settings, que se encuentran en la ruta: {HOMEPATH}/.android
-- Es posible que la primera vez que cargues un proyecto salga algún error de falta de librerías, es normal ya que en ese momento aún se están descargando algunos archivos necesarios.
+- Es posible que la primera vez que cargues un proyecto salga algÃºn error de falta de librerÃ­as, es normal ya que en ese momento aÃºn se estÃ¡n descargando algunos archivos necesarios.

@@ -18,7 +18,7 @@ Description of the steps to unify all necessary IDE files into a single director
 5. Advance to the configuration type selection screen and choose custom
 6. Check that the following directories are correct::
 	- JDK
-	> {PortableAppPath}\sw_files\jre
+	> {PortableAppPath}\sw_files\jbr
 	- Android SDK
 	> {PortableAppPath}\sdk
 7. You can save the projects wherever you want, but it is recommended to use the projects folder
@@ -36,7 +36,7 @@ Description of the steps to unify all necessary IDE files into a single director
 	studio.properties
 	sw_files
 	```
-9. Done! From here on always run the IDE with the ***start-studio.bat*** script
+9. Done! From here on always run the IDE with the ***start-studio.bat (or start-studio.sh)*** script
 
 ##### Notes:
 
