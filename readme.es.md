@@ -13,7 +13,7 @@ Descripción de los pasos para unificar todos los archivos necesarios del IDE en
 		jre
 		...
 	```
-3. Ejecutar start-studio.bat
+3. Ejecutar start-studio.bat (o start-studio.sh)
 4. Elegir no importar la configuración
 5. Avanzar hasta la pantalla de selección de tipo de configuración y elegir personalizada
 6. Comprobar que los siguientes directorios estén correctos:

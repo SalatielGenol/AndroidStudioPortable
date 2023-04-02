@@ -13,7 +13,7 @@ Description of the steps to unify all necessary IDE files into a single director
 		jre
 		...
 	```
-3. Run start-studio.bat
+3. Run start-studio.bat (or start-studio.sh)
 4. Choose not to import the configuration
 5. Advance to the configuration type selection screen and choose custom
 6. Check that the following directories are correct::
