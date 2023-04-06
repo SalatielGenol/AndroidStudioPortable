@@ -1,12 +1,15 @@
 #!/bin/bash
 
-base_dir=`pwd`
+export STUDIO_PROPERTIES=$PWD/studio.properties
+export ANDROID_HOME=$PWD/sdk
+export ANDROID_USER_HOME=$PWD/.android
+export ANDROID_EMULATOR_HOME=$PWD/.android_machines
+export ANDROID_AVD_HOME=$PWD/.android_machines/avd
+export STUDIO_GRADLE_JDK=$PWD/sw_files/jbr
+export GRADLE_USER_HOME=$PWD/.gradle
 
-export STUDIO_PROPERTIES=$base_dir/studio.properties
-export ANDROID_HOME=$base_dir/sdk
-export ANDROID_USER_HOME=$base_dir/.android
-export ANDROID_EMULATOR_HOME=$base_dir/.android_machines
-export ANDROID_AVD_HOME=$base_dir/.android_machines/avd
-export STUDIO_GRADLE_JDK=$base_dir/sw_files/jbr
-export GRADLE_USER_HOME=$base_dir/.gradle
-nohup sh $base_dir/sw_files/bin/studio.sh
+if [ -r "$PWD/nohup.out" ]; then
+  rm $PWD/nohup.out
+fi
+
+nohup sh $PWD/sw_files/bin/studio.sh
