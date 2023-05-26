@@ -3,8 +3,8 @@
 export STUDIO_PROPERTIES=$PWD/studio.properties
 export ANDROID_HOME=$PWD/sdk
 export ANDROID_USER_HOME=$PWD/.android
-export ANDROID_EMULATOR_HOME=$PWD/.android_machines
-export ANDROID_AVD_HOME=$PWD/.android_machines/avd
+export ANDROID_EMULATOR_HOME=$PWD/.android
+export ANDROID_AVD_HOME=$PWD/.android/avd
 export STUDIO_GRADLE_JDK=$PWD/sw_files/jbr
 export GRADLE_USER_HOME=$PWD/.gradle
 

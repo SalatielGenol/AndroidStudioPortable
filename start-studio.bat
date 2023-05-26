@@ -2,8 +2,8 @@
 set STUDIO_PROPERTIES=%CD%\studio.properties
 set ANDROID_HOME=%CD%\sdk
 set ANDROID_USER_HOME=%CD%\.android
-set ANDROID_EMULATOR_HOME=%CD%\.android_machines
-set ANDROID_AVD_HOME=%CD%\.android_machines\avd
+set ANDROID_EMULATOR_HOME=%CD%\.android
+set ANDROID_AVD_HOME=%CD%\.android\avd
 set STUDIO_GRADLE_JDK=%CD%\sw_files\jbr
 set GRADLE_USER_HOME=%CD%\.gradle
 start %CD%\sw_files\bin\studio64.exe
